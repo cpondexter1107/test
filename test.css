@@ -1,0 +1,181 @@
+body {
+    background-color: #EFEEED;
+    min-width: 375px;
+
+}
+
+.navbar-brand {
+    color: #534C49;
+    font-family: 'Roboto Slab', serif;
+}
+
+button {
+    color: #EBF2FA;
+}
+
+main {
+    margin: 1rem 2rem;
+}
+
+header {
+    padding: 0.5rem;
+    background-color: #EFEEED;
+    width: 100%;
+    height: 3.5rem;
+    border-bottom: 1px solid #ACBACB;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.05);
+}
+
+#main_nav_header {
+    background-color: #EFEEED;
+}
+
+.collapse{    
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.hero_image {
+    display: none;
+}
+
+.row {
+    height: 100%;
+    width: 100%;
+    max-width: 1400px;
+    background-color: #F7B264;
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    margin: 0;
+
+}
+
+.custom-toggler .navbar-toggler-icon {
+    /* background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(283, 76, 73, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); */
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: #534C49;
+}
+
+#main_hero_space{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5rem;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+}
+
+#head_image_space{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem 2rem;
+}
+
+.button_hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#head_image{
+    height: auto;
+    width: 100%;
+    max-width: 25rem;
+}
+
+li{
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    /* padding-left: 2rem; */
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.button_hero{
+    padding: 0;
+}
+
+.button_hero{
+    font-size: 1rem;
+}
+
+.wrapper .button{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin: 0 0.5rem;
+    background: rgb(235, 242, 250);
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+}
+
+.wrapper .button:hover{
+    width: 200px;
+}
+
+.wrapper .button .icon{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+}
+
+.wrapper .button span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+}
+
+.icon a{
+    text-decoration: none;
+    color: black
+    ;
+}
+
+.icon{
+    font-size: 1.5rem;
+}
+
+#button_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media (min-width:390px){
+    h1{
+        font-size: 2rem;
+    }
+}
