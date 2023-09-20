@@ -174,13 +174,13 @@ a{
 }
     
 
-@media (min-width:390px){
+@media (min-width:400px){
     h1{
         font-size: 2rem;
     }
 }
 
-@media (max-width:390px){
+@media (max-width:400px){
     h1{
         font-size: 2rem;
     }
