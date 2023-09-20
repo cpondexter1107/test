@@ -171,11 +171,29 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
+    
 
 @media (min-width:390px){
     h1{
         font-size: 2rem;
+    }
+}
+
+@media (max-width:390px){
+    h1{
+        font-size: 2rem;
+    }
+
+    .wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        height: 15rem;
+    }
+    
+    .wrapper .buttom{
+        margin: 2rem;
     }
 }
